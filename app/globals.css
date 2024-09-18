@@ -1,0 +1,41 @@
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+.marker_button {
+  border: 0;
+  background-color: rgb(255, 196, 0);
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  align-items: flex-end;
+}
+
+.marker_card {
+  width: 250px;
+  gap: 15px;
+  padding: 1rem;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.marker_info {
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
