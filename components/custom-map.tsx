@@ -5,8 +5,9 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 
 const containerStyle = {
-    width: '100%',
-    height: '800px',
+    width: '80%',
+    height: '400px',
+    "margin": "auto",
     borderRadius: '15px',
 };
 
